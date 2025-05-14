@@ -58,9 +58,7 @@ export default function PopularStore() {
               .map((_, index) => (
                 <PopularStoreItem key={index}>
                    {/* 매장 이미지 로딩 대체용 스켈레톤 (원형) */}
-                  {/* <Skeleton width={90} height={90} borderRadius={10} /> */}
                   <Skeleton width={90} height={90} circle={true} />
-
                   <PopularStoreText>
                      {/* 매장명 텍스트 영역 스켈레톤 */}
                     <Text typo="subtitle300">
